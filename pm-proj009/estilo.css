@@ -1,0 +1,323 @@
+
+@font-face {
+    font-family: 'muliextrabold';
+    src: url('fonts/muli-extrabold-webfont.woff2') format('woff2'),
+         url('fonts/muli-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+@font-face {
+    font-family: 'muliregular';
+    src: url('fonts/muli-regular-webfont.woff2') format('woff2'),
+         url('fonts/muli-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body
+
+
+
+{
+    width: 680px   ;
+    font-family: 'muliregular';
+    background-color: black;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+header {
+    background-color: #fff;
+    display: flex;
+    border-bottom: 1px solid #eaeaea;
+    height: 40px;
+        
+    
+}
+
+h2 {
+    color: #5e5f5f;
+    padding: 0;
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 40px;
+    font-family: 'muliextrabold';
+    font-size: 18px;
+    font-weight: 700;
+       
+}
+
+header ul {
+    padding: 0;
+    margin: 0;
+    line-height: 40px;
+    }
+
+header ul li{
+     color: #a4a4a4;
+     padding: 0px;
+     margin: 0px;
+     display: inline-block;
+      font-family: 'muliregular';
+     font-size: 12px;
+     font-weight: 400;
+}
+
+header li a{
+    color: #bfbfbf;
+     padding: 0px;
+     margin: 0px;
+     display: inline-block;
+     text-decoration: none;
+}
+
+header li .pay{
+    color: #a4a4a4;
+    margin: 0;
+    padding: 0px;
+    font-family: 'muliextrabold';
+     
+}
+
+section{
+    width: 680px;
+    height: 510px;
+    display: flex;
+}
+
+.cartao {
+    background-color: #ffffff;
+    width: 380px;
+    height: 100%;
+    color: #9a9c9d;
+    padding-left: 20px
+    
+}
+
+.cartao .wallet h3 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.cartao .bandeira {
+    display: inline-block;
+    width: 110px;
+    height: 100px;
+    font-size: 12px;
+    font-weight: 400px;
+        
+}
+
+
+.cartao .bandeira:hover{
+    background-color: #f6f9fd;
+    border: 1px solid #d2e3f7;
+}
+
+.cartao .bandeira img {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+   
+}
+.cartao .bandeira span {
+    display: block;
+    color: #d2d2d2;
+    margin-top: 8px;
+    padding-right: 13px;
+    padding-left: 13px;
+}
+
+
+::-webkit-input-placeholder
+{    color: #d2d2d2;
+    font-family: 'muliregular';
+    font-size: 14px;
+    font-weight: 400;
+    color: #c4cbd0;
+    }
+
+.newcard h3 {
+    border-bottom: 1px solid #eaeaea;
+    width: 355px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+    margin-bottom:25px
+        
+    
+}
+
+.cartao .newcard .dados input {
+    height: 40px;
+    width: 270px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    border: 1px solid #dfdfdf;   
+    border-radius: 2px;
+}
+
+
+.cartao .newcard input#data {
+    width: 150px;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+.cartao .newcard input#cvc {
+    width: 100px;
+    margin-left:12px
+}
+
+.cartao .newcard .x {
+    margin-left: 40px;
+    margin-bottom: 25px;
+    color: #777879;
+    
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cartao .newcard .x span{
+    margin-left: 5px;
+}
+
+button {
+    width: 270px;
+    margin-left: 40px;
+    line-height: 40px;
+    background-color: #8cd735;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+     font-family: 'muliextrabold';
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+
+.total {
+    background-color: #ebebeb;
+    width: 300px;
+    height: 100%;
+    color: #8a8b8b;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+    
+    
+   
+}
+
+
+.total .item{
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid #d5d3d6;
+    
+    
+    
+   
+      
+}
+
+.total img {
+    padding-right:5px;
+    width: 45px;
+    height: 45px;
+    
+}
+
+.total .item .texto {
+    display: block;
+    width: 100%;
+    margin: 0;
+    line-height: 1;
+    margin-bottom: 5px
+    
+}
+
+.total .item .texto h4{
+     font-family: 'muliextrabold';
+    font-weight: 700;
+    font-size: 12px;
+    margin: 0;
+    color: #777879;
+    
+}
+
+.total .item .texto .cor {
+    font-size: 10px;
+    font-weight: 200;
+    
+}
+
+.total .item .texto .Quantidade {
+    font-size: 10px;
+    color: #9c9c9c;
+    font-weight: 700;
+}
+.total .item .valor {
+    font-size: 12px;
+    color: #777879;
+     font-family: 'muliextrabold';
+    font-weight: 700;
+    text-align: right;
+    
+}
+
+ #subtotal {
+    width: 100%;
+    display: flex;
+    font-size: 12px;
+    font-weight: 400;
+    color: #777879;
+    
+       
+    
+}
+
+.total .item #subtotal p{
+    margin: 0;
+    margin-bottom: 5px;
+    
+}
+
+.total .item #subtotal .num{
+      width: 100%;
+    text-align: right;
+    
+}
+
+.total  #Total {
+   display: flex;
+     font-family: 'muliextrabold';
+    font-size: 12px;
+    font-weight: 700;
+    color: #777879;
+    
+}
+
+.total  #Total p {
+    margin: 0;
+    margin-top: 10px;
+    
+}
+
+.total  #Total .num{
+    width: 100%;
+    text-align: right;
+    
+}
+
+

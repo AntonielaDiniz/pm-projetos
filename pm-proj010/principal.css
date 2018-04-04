@@ -1,0 +1,47 @@
+body {
+    background-color: #f5f8f9;
+   }
+
+article {
+    background-color: #fff;
+    border-right: 1px solid #e1e1e1;
+}
+
+
+article .content {
+    font-size: 0.938em;
+    color: #666666;
+    padding: 30px;
+}
+
+article .content h3{
+    border-bottom: 1px solid #d10014;
+    color:  #d10014;
+    padding-bottom: 3px;
+    font-size: 1.125em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    word-spacing: 5px;
+    }
+
+
+
+
+article .instituicao h4 {
+    font-size: 1.063em;
+    font-weight: 700;
+    margin-bottom: 5px;
+  
+}
+
+article .instituicao h5 {
+    font-size: 0.938em;
+     margin-bottom: 0px;  
+}
+
+article .instituicao small {
+    font-weight: 300;
+    font-size: 0.938;
+    margin-bottom: 50px;
+    }
